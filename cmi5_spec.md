@@ -207,7 +207,7 @@ http://www.iana.org/assignments/media-types/index.html
 http://www.w3.org/XML
 * The JSON Data Interchange Format<br>
 http://json.org/
-* ISO/IEC 21320-1:2015(en) Information technology — Document Container File — Part 1: Core (Commonly called ZIP file format):<br>https://www.iso.org/obp/ui/#iso:std:iso-iec:21320\:-1:ed-1:v1:en
+* ISO/IEC 21320-1:2015(en) Information technology — Document Container File — Part 1: Core (Commonly called ZIP file format):<br>https://www.iso.org/obp/ui/#iso:std:iso-iec:21320:<zero-width space>-1:ed-1:v1:en
 
 <a name="definitions"></a>   
 # 3.0 Definitions  
