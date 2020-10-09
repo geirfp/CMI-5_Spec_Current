@@ -296,6 +296,7 @@ The LMS MUST have an account which is able to retrieve all Resource data (from t
 ## 4.3 Optional JSON Values
 
 If JSON properties are indicated as "optional", you MAY leave such properties out of the JSON structure being described. All JSON properties included with non-null values MUST be recorded in the LRS.
+_Comment from Geir: Does this need extra explanation, as it is very early in the specification and perhaps the reader doesn't understand what this means yet...?_
 
 <a name="course_conformance"></a>
 ## 4.4 Courses
@@ -993,7 +994,7 @@ The term "moveOn" is used  for representing a category as in 9.6.2.2 moveOn Cate
 ## 9.7 Timestamp
 
 To ensure statement ordering requirements are met, all statements MUST include a timestamp property per the xAPI specification. All timestamps MUST be recorded in UTC time. Timestamps are not required to be unique in statements within a session. The time recorded SHOULD indicate when the condition actually occurred.
-
+_Comment from Geir: Example??? Use of timezone in ISO8601?_
 
 <a name="xapi_state"></a>  
 # 10.0 xAPI State Data Model
