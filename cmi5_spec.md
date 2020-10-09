@@ -388,9 +388,9 @@ The AU MUST issue a statement to the LRS after being launched, initialized, and 
 
 <a name="last_statement_au"></a>  
 ### 7.1.2 Last Statement Call
-The AU MUST issue a Terminated statement (using Terminated as the verb) to the LRS as described in Section 9.3.8 as the last statement in a session.
+The AU MUST issue a "Terminated" statement (using Terminated as the verb) to the LRS as described in Section 9.3.8 as the last statement in a session.
  
-Once the AU has determined that the session will end (e.g. by user action or some other means) the AU SHOULD issue a Terminated statement.
+Once the AU has determined that the session will end (e.g. by user action or some other means) the AU SHOULD issue a "Terminated" statement.
  
  Circumstances under which the AU may determine that the session is ending could include:
  
@@ -726,7 +726,7 @@ LMS verb ordering rules are as follows:
 <th align="left" nowrap>LMS Obligations</th><td>
 The LMS MUST use the "Satisfied" statement when the learner has met the moveOn criteria of all AU's in a block.  In this statement the LMS MUST use the LMS generated Block ID as the Object ID (Section 9.4 - Object) and use "https://w3id.org/xapi/cmi5/activitytype/block" as the value of the "type" property in the Object's Definition.<br>
 <br>
-The LMS MUST generate a unique Block ID for the Satisfied Statement. The generated Block ID MUST NOT match the publisher’s ID from the course structure.<br>
+The LMS MUST generate a unique Block ID for the "Satisfied" statement. The generated Block ID MUST NOT match the publisher’s ID from the course structure.<br>
 <br>
 The LMS MUST also use the "Satisfied" statement when the learner has met the moveOn criteria for all AU's in a course.  In this statement the LMS MUST use the LMS generated Course ID as the Object ID (Section 9.4 - Object) and use "https://w3id.org/xapi/cmi5/activitytype/course" as the value of the "type" property in the Object's Definition.<br>
 <br>
